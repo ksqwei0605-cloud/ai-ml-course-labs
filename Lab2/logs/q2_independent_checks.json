@@ -1,0 +1,99 @@
+{
+  "n_rows": 56000,
+  "prediction_agreement": 1.0,
+  "independent_metrics": {
+    "silhouette": 0.9612812792691414,
+    "calinski_harabasz": 2367226.736728575,
+    "davies_bouldin": 0.05388014997155949
+  },
+  "torch_metrics": {
+    "silhouette": 0.961281418800354,
+    "calinski_harabasz": 2367226.75,
+    "davies_bouldin": 0.05388013273477554
+  },
+  "inertia_float64": 74944.8593643817,
+  "inertia_saved": 74944.859375,
+  "squared_distance_margin_quantiles": [
+    5.818141366273437,
+    979.0689688781672,
+    1078.3576315888345,
+    1112.8981125454702
+  ],
+  "sensitivity": {
+    "scaled": {
+      "ari_vs_raw": 1.0,
+      "same_ids_fraction": 0.8056071428571429,
+      "silhouette": 0.961281418800354
+    },
+    "ch": {
+      "ari_vs_raw": 1.0,
+      "same_ids_fraction": 1.0,
+      "silhouette": 0.961281418800354
+    },
+    "db": {
+      "ari_vs_raw": 1.0,
+      "same_ids_fraction": 1.0,
+      "silhouette": 0.961281418800354
+    },
+    "sample": {
+      "ari_vs_raw": 1.0,
+      "same_ids_fraction": 1.0,
+      "silhouette": 0.9623003005981445
+    },
+    "full_eval": {
+      "ari_vs_raw": 1.0,
+      "same_ids_fraction": 1.0,
+      "silhouette": 0.9621308445930481
+    }
+  },
+  "max_group_silhouette_change_full_vs_sample": 0.008311611413955644,
+  "structural_comparison": {
+    "gmm_9": {
+      "seed_ari_mean": 0.9999270601281232,
+      "seed_ari_min": 0.9998672092224709,
+      "n_samples_in_smallest_cluster": 5456
+    },
+    "kmeans_9": {
+      "seed_ari_mean": 1.0,
+      "seed_ari_min": 1.0,
+      "n_samples_in_smallest_cluster": 5458
+    },
+    "gmm_10": {
+      "seed_ari_mean": 1.0,
+      "seed_ari_min": 1.0,
+      "n_samples_in_smallest_cluster": 5046
+    },
+    "kmeans_10": {
+      "seed_ari_mean": 1.0,
+      "seed_ari_min": 1.0,
+      "n_samples_in_smallest_cluster": 5049
+    },
+    "gmm_11": {
+      "seed_ari_mean": 0.9998313127612439,
+      "seed_ari_min": 0.9997536116719485,
+      "n_samples_in_smallest_cluster": 1394
+    },
+    "kmeans_11": {
+      "seed_ari_mean": 0.9928774483705723,
+      "seed_ari_min": 0.9834510525381426,
+      "n_samples_in_smallest_cluster": 24
+    },
+    "gmm_12": {
+      "seed_ari_mean": 0.9940465553604702,
+      "seed_ari_min": 0.9914799002809165,
+      "n_samples_in_smallest_cluster": 369
+    },
+    "kmeans_12": {
+      "seed_ari_mean": 0.9645121596263484,
+      "seed_ari_min": 0.9399064812698437,
+      "n_samples_in_smallest_cluster": 4
+    },
+    "matched_method_k10_ari": {
+      "17": 0.9997262967955771,
+      "42": 0.9997262967955771,
+      "73": 0.9997262967955771,
+      "101": 0.9997262967955771,
+      "137": 0.9997262967955771
+    }
+  }
+}

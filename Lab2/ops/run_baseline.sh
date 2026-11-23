@@ -20,13 +20,4 @@ for task in expression gradient; do
     echo "$(date -Is) Q1 $task"
     "$py" main.py --task "$task" --device cpu --output "outputs/$stamp/$task"
 done
-cd "$root/code/q2_clustering"
-"$py" -m pytest -q
-for device in cpu cuda; do
-    "$py" extras.py self-check --device "$device"
-done
-echo "$(date -Is) Q2 formal fit and evaluation"
-output="outputs/baseline_$stamp"
-"$py" main.py --device cuda --output "$output"
-"$py" extras.py check-output --output "$output"
-echo "$(date -Is) baseline complete output=$output"
+bash "$root/ops/run_q2_baseline.sh" "$stamp"

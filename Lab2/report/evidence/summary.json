@@ -1,0 +1,250 @@
+{
+  "expression": [
+    {
+      "group": "A",
+      "parameters": 65,
+      "train_mse": 0.006851733662188053,
+      "grid_mse": 0.0070420498959720135,
+      "steps": 3000,
+      "section_values": [
+        0.6517899632453918,
+        0.20622959733009338,
+        0.6696507930755615
+      ]
+    },
+    {
+      "group": "B",
+      "parameters": 65,
+      "train_mse": 0.006852589547634125,
+      "grid_mse": 0.0070313867181539536,
+      "steps": 9000,
+      "section_values": [
+        0.653410792350769,
+        0.2074160873889923,
+        0.6706581115722656
+      ]
+    },
+    {
+      "group": "C",
+      "parameters": 257,
+      "train_mse": 0.0020702211186289787,
+      "grid_mse": 0.002443756442517042,
+      "steps": 3000,
+      "section_values": [
+        0.8278790712356567,
+        0.059617191553115845,
+        0.7728193998336792
+      ]
+    },
+    {
+      "group": "D",
+      "parameters": 65,
+      "train_mse": 3.519896907278053e-08,
+      "grid_mse": 7.980456757650245e-07,
+      "steps": 3000,
+      "section_values": [
+        0.9898167848587036,
+        6.554610081366263e-07,
+        0.9896490573883057
+      ]
+    }
+  ],
+  "section_reference": [
+    0.9895833134651184,
+    0.0,
+    0.9895833134651184
+  ],
+  "gradient": [
+    {
+      "group": "A",
+      "parameters": 1185,
+      "train_mse": 0.00023318677267525345,
+      "grid_mse": 0.0002609148505143821,
+      "steps": 1000,
+      "first_relative_gradient": [
+        0.012913216804689905,
+        0.06975172189029707
+      ],
+      "last_relative_gradient": [
+        0.05413168321630129,
+        0.11229671990404665
+      ]
+    },
+    {
+      "group": "B",
+      "parameters": 7521,
+      "train_mse": 0.4177474081516266,
+      "grid_mse": 0.42981916666030884,
+      "steps": 1000,
+      "first_relative_gradient": [
+        2.6978929283423087e-06,
+        2.9923571607680517e-06
+      ],
+      "last_relative_gradient": [
+        0.055086665196067884,
+        0.05399429585901375
+      ]
+    },
+    {
+      "group": "C",
+      "parameters": 7521,
+      "train_mse": 0.0011122822761535645,
+      "grid_mse": 0.001241288729943335,
+      "steps": 1000,
+      "first_relative_gradient": [
+        0.011120483874934911,
+        0.2382883339584603
+      ],
+      "last_relative_gradient": [
+        0.17860776666312492,
+        0.2159284161235876
+      ]
+    },
+    {
+      "group": "D",
+      "parameters": 7521,
+      "train_mse": 0.4177475869655609,
+      "grid_mse": 0.429819256067276,
+      "steps": 1000,
+      "first_relative_gradient": [
+        2.6978929283423087e-06,
+        2.7603870327954523e-06
+      ],
+      "last_relative_gradient": [
+        0.055086665196067884,
+        0.0505759547080073
+      ]
+    }
+  ],
+  "experiments": [
+    {
+      "name": "raw",
+      "method": "kmeans",
+      "k": 10,
+      "seed": 17,
+      "silhouette": 0.961281418800354,
+      "ch": 2367226.65,
+      "db": 0.053880130499601366,
+      "stability_mean": 1.0,
+      "stability_min": 1.0,
+      "min_size": 5049,
+      "max_size": 6308,
+      "covered": 10,
+      "failures": 0,
+      "seconds": 61.38377816416323,
+      "hash": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b"
+    },
+    {
+      "name": "scaled",
+      "method": "kmeans",
+      "k": 10,
+      "seed": 17,
+      "silhouette": 0.961281418800354,
+      "ch": 2367226.65,
+      "db": 0.05388011038303375,
+      "stability_mean": 1.0,
+      "stability_min": 1.0,
+      "min_size": 5049,
+      "max_size": 6308,
+      "covered": 10,
+      "failures": 0,
+      "seconds": 57.20454900711775,
+      "hash": "6c389efc3a4a62243dfa5cde16e00210dda22ec6b53c77650d61df4ac0e159fe"
+    },
+    {
+      "name": "sample",
+      "method": "kmeans",
+      "k": 10,
+      "seed": 17,
+      "silhouette": 0.9623003005981445,
+      "ch": 2367226.65,
+      "db": 0.05388013944029808,
+      "stability_mean": 1.0,
+      "stability_min": 1.0,
+      "min_size": 5049,
+      "max_size": 6308,
+      "covered": 10,
+      "failures": 0,
+      "seconds": 6.297206791117787,
+      "hash": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b"
+    },
+    {
+      "name": "ch",
+      "method": "kmeans",
+      "k": 10,
+      "seed": 17,
+      "silhouette": 0.961281418800354,
+      "ch": 2367226.65,
+      "db": 0.05388012304902077,
+      "stability_mean": 1.0,
+      "stability_min": 1.0,
+      "min_size": 5049,
+      "max_size": 6308,
+      "covered": 10,
+      "failures": 0,
+      "seconds": 6.365131726488471,
+      "hash": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b"
+    },
+    {
+      "name": "db",
+      "method": "kmeans",
+      "k": 10,
+      "seed": 17,
+      "silhouette": 0.961281418800354,
+      "ch": 2367226.6,
+      "db": 0.0538801334798336,
+      "stability_mean": 1.0,
+      "stability_min": 1.0,
+      "min_size": 5049,
+      "max_size": 6308,
+      "covered": 10,
+      "failures": 0,
+      "seconds": 6.379160085693002,
+      "hash": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b"
+    }
+  ],
+  "env": {
+    "python": "3.12.3",
+    "numpy": "2.3.2",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1",
+    "dtype": "float32",
+    "device": "cuda",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "device_name": "NVIDIA RTX 6000D"
+  },
+  "protocol": {
+    "shape": [
+      56000
+    ],
+    "dtype": "int32",
+    "actual_k": 10,
+    "cluster_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "cluster_sizes": [
+      5458,
+      6308,
+      5587,
+      5496,
+      5567,
+      5837,
+      5714,
+      5458,
+      5049,
+      5526
+    ],
+    "assigned": 56000,
+    "passed": true
+  }
+}

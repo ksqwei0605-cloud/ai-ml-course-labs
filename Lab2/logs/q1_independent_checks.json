@@ -1,0 +1,43 @@
+{
+  "analytic_two_layer": {
+    "train": {
+      "max_error_vs_exact": 1.1102230246251565e-16,
+      "max_error_vs_supplied_float32": 1.5832483768463135e-07
+    },
+    "grid": {
+      "max_error_vs_exact": 0.0,
+      "max_error_vs_supplied_float32": 7.947285973752827e-08
+    }
+  },
+  "same_initial_state": {
+    "max_initial_gradient_difference": 0.0,
+    "initial_losses": {
+      "B": 1.2939634323120117,
+      "D": 1.2939634323120117
+    },
+    "first_update_norm_ratio": 1.999999761581421
+  },
+  "grid_region_mse": {
+    "zero_background": {
+      "points": 3599,
+      "A": 0.004753305111080408,
+      "B": 0.004764210898429155,
+      "C": 0.0014929918106645346,
+      "D": 8.938274049796746e-07
+    },
+    "positive_support": {
+      "points": 626,
+      "A": 0.020200500264763832,
+      "B": 0.02006583847105503,
+      "C": 0.007909893989562988,
+      "D": 2.4737701664889755e-07
+    },
+    "upper_peak": {
+      "points": 50,
+      "A": 0.06802865862846375,
+      "B": 0.06734141707420349,
+      "C": 0.01426956057548523,
+      "D": 2.4376594964792275e-08
+    }
+  }
+}
