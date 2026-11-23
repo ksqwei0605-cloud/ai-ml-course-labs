@@ -1,0 +1,10 @@
+{
+  "config": "course default, 32 fits, three starts; independent repeat",
+  "elapsed_seconds": 7.716772792860866,
+  "device": "NVIDIA RTX 6000D",
+  "max_allocated_mib": 593.19873046875,
+  "max_reserved_mib": 886.0,
+  "linux_process_peak_rss_mib": 1757.3046875,
+  "selected": "kmeans_k10_seed17",
+  "same_labels_sha256": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b"
+}

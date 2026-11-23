@@ -1,0 +1,99 @@
+{
+  "official_run": "20261123T155816Z",
+  "features_sha256": "a07578f6e1ab9d17667b987b25b1b9bc1f06a5f1f678a127e31dc78bc5ff0b38",
+  "q1_grid_mse_recomputed": {
+    "expression": {
+      "A": 0.0070420496592449415,
+      "B": 0.007031387084222729,
+      "C": 0.0024437564941289787,
+      "D": 7.980456861765694e-07
+    },
+    "gradient": {
+      "A": 0.0002609148656902794,
+      "B": 0.42981914173540664,
+      "C": 0.0012412885867138072,
+      "D": 0.42981927013597654
+    }
+  },
+  "q2": {
+    "baseline_20261123T155816Z": {
+      "candidate_count": 32,
+      "selected_runs_converged": 26,
+      "winner": "kmeans_k10_seed17",
+      "clusters_sha256": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b",
+      "actual_k": 10,
+      "min_size": 5049,
+      "max_size": 6308
+    },
+    "raw": {
+      "candidate_count": 260,
+      "selected_runs_converged": 198,
+      "winner": "kmeans_k10_seed17",
+      "clusters_sha256": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b",
+      "actual_k": 10,
+      "min_size": 5049,
+      "max_size": 6308
+    },
+    "scaled": {
+      "candidate_count": 260,
+      "selected_runs_converged": 220,
+      "winner": "kmeans_k10_seed17",
+      "clusters_sha256": "6c389efc3a4a62243dfa5cde16e00210dda22ec6b53c77650d61df4ac0e159fe",
+      "actual_k": 10,
+      "min_size": 5049,
+      "max_size": 6308
+    },
+    "ch": {
+      "candidate_count": 260,
+      "selected_runs_converged": 198,
+      "winner": "kmeans_k10_seed17",
+      "clusters_sha256": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b",
+      "actual_k": 10,
+      "min_size": 5049,
+      "max_size": 6308
+    },
+    "db": {
+      "candidate_count": 260,
+      "selected_runs_converged": 198,
+      "winner": "kmeans_k10_seed17",
+      "clusters_sha256": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b",
+      "actual_k": 10,
+      "min_size": 5049,
+      "max_size": 6308
+    },
+    "sample": {
+      "candidate_count": 260,
+      "selected_runs_converged": 198,
+      "winner": "kmeans_k10_seed17",
+      "clusters_sha256": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b",
+      "actual_k": 10,
+      "min_size": 5049,
+      "max_size": 6308
+    },
+    "full_eval": {
+      "candidate_count": 260,
+      "selected_runs_converged": 198,
+      "winner": "kmeans_k10_seed17",
+      "clusters_sha256": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b",
+      "actual_k": 10,
+      "min_size": 5049,
+      "max_size": 6308
+    },
+    "restarts10": {
+      "candidate_count": 40,
+      "selected_runs_converged": 37,
+      "winner": "kmeans_k10_seed17",
+      "clusters_sha256": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b",
+      "actual_k": 10,
+      "min_size": 5049,
+      "max_size": 6308
+    }
+  },
+  "submission": {
+    "code/q1_neural_network/models.py": "fd3f97724ad3ea8b8507be355d0a6487e541f1633ebd9e072f08b5c057d0380d",
+    "code/q1_neural_network/train.py": "2adbaf76368234eaee3c80f28eee4a0a133d7bd9bfc7b570014dc56d16a986db",
+    "code/q2_clustering/submission.py": "1589e4620558b87f523d5aacac25c714b5bb6e0d5a6acd08794b09b48f051eb8",
+    "code/data/clusters.npy": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b"
+  },
+  "report_pdf_present": false
+}

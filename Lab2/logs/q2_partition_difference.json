@@ -1,0 +1,137 @@
+{
+  "k": 10,
+  "comparison": "KMeans and GMM predictions; labels aligned using only predictions",
+  "rows_zero_based": true,
+  "by_fit_seed": {
+    "17": {
+      "total_disagreements": 7,
+      "zero_based_rows": [
+        19937,
+        34157,
+        38860,
+        38984,
+        39359,
+        42723,
+        52327
+      ],
+      "evaluation_sample": {
+        "raw": {
+          "size": 3000,
+          "disagreements": 0
+        },
+        "sample": {
+          "size": 3000,
+          "disagreements": 1
+        },
+        "full_eval": {
+          "size": 56000,
+          "disagreements": 7
+        }
+      }
+    },
+    "42": {
+      "total_disagreements": 7,
+      "zero_based_rows": [
+        19937,
+        34157,
+        38860,
+        38984,
+        39359,
+        42723,
+        52327
+      ],
+      "evaluation_sample": {
+        "raw": {
+          "size": 3000,
+          "disagreements": 0
+        },
+        "sample": {
+          "size": 3000,
+          "disagreements": 1
+        },
+        "full_eval": {
+          "size": 56000,
+          "disagreements": 7
+        }
+      }
+    },
+    "73": {
+      "total_disagreements": 7,
+      "zero_based_rows": [
+        19937,
+        34157,
+        38860,
+        38984,
+        39359,
+        42723,
+        52327
+      ],
+      "evaluation_sample": {
+        "raw": {
+          "size": 3000,
+          "disagreements": 0
+        },
+        "sample": {
+          "size": 3000,
+          "disagreements": 1
+        },
+        "full_eval": {
+          "size": 56000,
+          "disagreements": 7
+        }
+      }
+    },
+    "101": {
+      "total_disagreements": 7,
+      "zero_based_rows": [
+        19937,
+        34157,
+        38860,
+        38984,
+        39359,
+        42723,
+        52327
+      ],
+      "evaluation_sample": {
+        "raw": {
+          "size": 3000,
+          "disagreements": 0
+        },
+        "sample": {
+          "size": 3000,
+          "disagreements": 1
+        },
+        "full_eval": {
+          "size": 56000,
+          "disagreements": 7
+        }
+      }
+    },
+    "137": {
+      "total_disagreements": 7,
+      "zero_based_rows": [
+        19937,
+        34157,
+        38860,
+        38984,
+        39359,
+        42723,
+        52327
+      ],
+      "evaluation_sample": {
+        "raw": {
+          "size": 3000,
+          "disagreements": 0
+        },
+        "sample": {
+          "size": 3000,
+          "disagreements": 1
+        },
+        "full_eval": {
+          "size": 56000,
+          "disagreements": 7
+        }
+      }
+    }
+  }
+}
