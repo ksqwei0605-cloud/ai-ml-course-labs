@@ -87,6 +87,15 @@
       "actual_k": 10,
       "min_size": 5049,
       "max_size": 6308
+    },
+    "gmm_iter400": {
+      "candidate_count": 260,
+      "selected_runs_converged": 236,
+      "winner": "kmeans_k10_seed17",
+      "clusters_sha256": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b",
+      "actual_k": 10,
+      "min_size": 5049,
+      "max_size": 6308
     }
   },
   "submission": {

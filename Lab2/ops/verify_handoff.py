@@ -96,7 +96,7 @@ def main(stage):
     ext = Q2 / "outputs/sensitivity_v1"
     folders = [(Q2 / "outputs" / f"baseline_{STAMP}", 32)]
     folders.extend((ext / name, 40 if name == "restarts10" else 260)
-                   for name in ["raw", "scaled", "ch", "db", "sample", "full_eval", "restarts10"])
+                   for name in ["raw", "scaled", "ch", "db", "sample", "full_eval", "restarts10", "gmm_iter400"])
     q2 = {f.name: verify_q2(f, n, input_sha, src_sha) for f, n in folders}
     candidate = ext / "raw/clusters.npy"
     sources = {ROOT / "code/q1_neural_network/models.py": "code/q1_neural_network/models.py",
