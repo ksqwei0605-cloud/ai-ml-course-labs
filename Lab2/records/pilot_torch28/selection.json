@@ -1,0 +1,19 @@
+{
+  "status": "selected",
+  "rule": {
+    "metric": "silhouette",
+    "aggregation": "mean",
+    "direction": "maximize",
+    "group_tie_atol": 1e-06,
+    "group_tie_break": [
+      "smaller_k",
+      "kmeans_first"
+    ],
+    "representative_run": "best_training_objective",
+    "representative_seed_tie_rtol": 1e-07
+  },
+  "method": "kmeans",
+  "k": 10,
+  "run_key": "kmeans_k10_seed17",
+  "restart": 0
+}

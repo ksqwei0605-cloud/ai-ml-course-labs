@@ -1,0 +1,13 @@
+PASS: kmeans++ weighted initialization and zero-distance fallback
+PASS: nearest-center assignment including a tie
+PASS: mean update, empty center and no input mutation
+PASS: E-step hand calculation and high-dimensional underflow handling
+PASS: M-step weighted moments, regularization and degenerate component
+PASS: kmeans complete fit, trajectory and reproducibility on synthetic data
+PASS: gmm complete fit, trajectory and reproducibility on synthetic data
+PASS: silhouette_score hand calculation, label invariance and no mutation
+PASS: calinski_harabasz_score hand calculation, label invariance and no mutation
+PASS: davies_bouldin_score hand calculation, label invariance and no mutation
+PASS: silhouette singleton convention
+PASS: DB absolute zero tolerance and coincident centers
+12 checks passed; also inspect your real-data results and logs.
