@@ -113,36 +113,6 @@ def clusters():
     finish(fig, "cluster_grid")
 
 
-def pca_view():
-    q2 = ROOT / "code/q2_clustering"
-    raw = q2 / "outputs/sensitivity_v1/raw"
-    with np.load(ROOT / "records/q2_pca_controls/pca.npz") as pca:
-        variance = pca["eigenvalues"]
-        ratio = variance / variance.sum()
-        ix = np.load(raw / "diagnostic_indices.npy")
-        with np.load(q2 / "data/features.npz") as source:
-            projection = (source["X"][ix] - pca["mean"]) @ pca["basis"][:, :2]
-    labels = np.load(raw / "clusters.npy")[ix]
-    fig, (ax, curve) = plt.subplots(1, 2, figsize=(7.1, 2.35), layout="constrained")
-    ax.scatter(*projection.T, c=labels, cmap="tab10", s=5, alpha=.55, linewidths=0)
-    ax.set_aspect("equal", adjustable="datalim")
-    ax.set(xlabel=f"PC1（{ratio[0]:.2%}）", ylabel=f"PC2（{ratio[1]:.2%}）")
-    dims = np.arange(1, len(ratio) + 1)
-    cumulative = ratio.cumsum() * 100
-    curve.semilogx(dims, cumulative, color=colors[0])
-    for dim in [2, 5, 9]:
-        y = cumulative[dim-1]
-        curve.scatter(dim, y, color=colors[1], s=16)
-        curve.annotate(f"{y:.2f}%", (dim, y), xytext=(4, -13 if dim == 9 else -2),
-                       textcoords="offset points", fontsize=8)
-    ticks = [1, 2, 5, 9, 32, 128, 512]
-    curve.set(xticks=ticks, xticklabels=ticks, xlabel="保留维数（对数轴）",
-              ylabel="累计解释方差（%）", ylim=(0, 107))
-    curve.grid(axis="y", alpha=.18)
-    finish(fig, "pca_controls")
-
-
 if __name__ == "__main__":
     neural_figures()
     clusters()
-    pca_view()
