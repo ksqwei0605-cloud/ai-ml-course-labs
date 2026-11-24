@@ -104,5 +104,5 @@
     "code/q2_clustering/submission.py": "1589e4620558b87f523d5aacac25c714b5bb6e0d5a6acd08794b09b48f051eb8",
     "code/data/clusters.npy": "31ada1977a80ade1af2614f781ee07fe1f6ae836bc54b952cd719d88c5b1921b"
   },
-  "report_pdf_present": false
+  "report_pdf_present": true
 }
