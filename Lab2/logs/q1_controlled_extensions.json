@@ -1,0 +1,160 @@
+{
+  "torch": "2.8.0+cpu",
+  "device": "cpu",
+  "threads": 1,
+  "initialization": "null = course weights, integer = PyTorch Linear default reset with given seed",
+  "architecture": [
+    {
+      "group": "A",
+      "seed": null,
+      "grid_mse": 0.007039319723844528,
+      "first_train_mse": 0.03077656216919422,
+      "final_train_mse": 0.0068509080447256565
+    },
+    {
+      "group": "D",
+      "seed": null,
+      "grid_mse": 1.111499045691744e-06,
+      "first_train_mse": 0.03077656216919422,
+      "final_train_mse": 2.5074302811844973e-07
+    },
+    {
+      "group": "A",
+      "seed": 17,
+      "grid_mse": 0.007821638137102127,
+      "first_train_mse": 0.10401105135679245,
+      "final_train_mse": 0.007340375334024429
+    },
+    {
+      "group": "D",
+      "seed": 17,
+      "grid_mse": 6.208178149336163e-08,
+      "first_train_mse": 0.027027929201722145,
+      "final_train_mse": 5.605312836109988e-08
+    },
+    {
+      "group": "A",
+      "seed": 42,
+      "grid_mse": 0.007080884650349617,
+      "first_train_mse": 0.05640729144215584,
+      "final_train_mse": 0.006626863963901997
+    },
+    {
+      "group": "D",
+      "seed": 42,
+      "grid_mse": 0.004687499720603228,
+      "first_train_mse": 0.036399856209754944,
+      "final_train_mse": 0.003985525108873844
+    },
+    {
+      "group": "A",
+      "seed": 73,
+      "grid_mse": 0.0104439165443182,
+      "first_train_mse": 0.06432545930147171,
+      "final_train_mse": 0.010207058861851692
+    },
+    {
+      "group": "D",
+      "seed": 73,
+      "grid_mse": 5.4107385949464515e-06,
+      "first_train_mse": 0.1390848308801651,
+      "final_train_mse": 2.0211100490996614e-06
+    },
+    {
+      "group": "A",
+      "seed": 101,
+      "grid_mse": 0.009936430491507053,
+      "first_train_mse": 0.10599414259195328,
+      "final_train_mse": 0.010373281314969063
+    },
+    {
+      "group": "D",
+      "seed": 101,
+      "grid_mse": 0.008957230485975742,
+      "first_train_mse": 0.11582089215517044,
+      "final_train_mse": 0.008544421754777431
+    },
+    {
+      "group": "A",
+      "seed": 137,
+      "grid_mse": 0.006813782267272472,
+      "first_train_mse": 0.4016934633255005,
+      "final_train_mse": 0.006692799739539623
+    },
+    {
+      "group": "D",
+      "seed": 137,
+      "grid_mse": 0.007337331306189299,
+      "first_train_mse": 0.2476556897163391,
+      "final_train_mse": 0.007316445466130972
+    }
+  ],
+  "activation_learning_rate": [
+    {
+      "activation": "sigmoid",
+      "learning_rate": 0.025,
+      "grid_mse": 0.4298192262649536,
+      "first_train_mse": 1.2939634323120117,
+      "final_train_mse": 0.41774749755859375,
+      "first_layer_relative_gradient": [
+        2.6978929283423087e-06,
+        2.992075598361703e-06
+      ]
+    },
+    {
+      "activation": "sigmoid",
+      "learning_rate": 0.05,
+      "grid_mse": 0.42981916666030884,
+      "first_train_mse": 1.2939634323120117,
+      "final_train_mse": 0.4177474081516266,
+      "first_layer_relative_gradient": [
+        2.6978929283423087e-06,
+        2.9923587702865445e-06
+      ]
+    },
+    {
+      "activation": "sigmoid",
+      "learning_rate": 0.1,
+      "grid_mse": 0.429819256067276,
+      "first_train_mse": 1.2939634323120117,
+      "final_train_mse": 0.4177475869655609,
+      "first_layer_relative_gradient": [
+        2.6978929283423087e-06,
+        2.7603867411347036e-06
+      ]
+    },
+    {
+      "activation": "relu",
+      "learning_rate": 0.025,
+      "grid_mse": 0.0018196688033640385,
+      "first_train_mse": 0.4106006920337677,
+      "final_train_mse": 0.001688644872047007,
+      "first_layer_relative_gradient": [
+        0.011120483874934911,
+        0.2781939106789259
+      ]
+    },
+    {
+      "activation": "relu",
+      "learning_rate": 0.05,
+      "grid_mse": 0.0012389965122565627,
+      "first_train_mse": 0.4106006920337677,
+      "final_train_mse": 0.0011100168339908123,
+      "first_layer_relative_gradient": [
+        0.011120483874934911,
+        0.23827263942945717
+      ]
+    },
+    {
+      "activation": "relu",
+      "learning_rate": 0.1,
+      "grid_mse": 0.00038653615047223866,
+      "first_train_mse": 0.4106006920337677,
+      "final_train_mse": 0.00031878333538770676,
+      "first_layer_relative_gradient": [
+        0.011120483874934911,
+        0.19398376050435678
+      ]
+    }
+  ]
+}

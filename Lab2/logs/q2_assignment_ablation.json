@@ -1,0 +1,71 @@
+{
+  "n": 56000,
+  "k": 10,
+  "fit_seed": 17,
+  "dtype": "float64",
+  "fixed_means": "archived GMM means",
+  "pooled_scalar_variance": 0.0027607477156736757,
+  "variants": {
+    "spherical_equal": {
+      "different_from_kmeans": 0,
+      "different_from_fitted_gmm": 7,
+      "zero_based_rows_vs_kmeans": []
+    },
+    "spherical_fitted": {
+      "different_from_kmeans": 0,
+      "different_from_fitted_gmm": 7,
+      "zero_based_rows_vs_kmeans": []
+    },
+    "diagonal_equal": {
+      "different_from_kmeans": 7,
+      "different_from_fitted_gmm": 0,
+      "zero_based_rows_vs_kmeans": [
+        19937,
+        34157,
+        38860,
+        38984,
+        39359,
+        42723,
+        52327
+      ]
+    },
+    "diagonal_fitted": {
+      "different_from_kmeans": 7,
+      "different_from_fitted_gmm": 0,
+      "zero_based_rows_vs_kmeans": [
+        19937,
+        34157,
+        38860,
+        38984,
+        39359,
+        42723,
+        52327
+      ]
+    },
+    "diagonal_distance_only": {
+      "different_from_kmeans": 7,
+      "different_from_fitted_gmm": 0,
+      "zero_based_rows_vs_kmeans": [
+        19937,
+        34157,
+        38860,
+        38984,
+        39359,
+        42723,
+        52327
+      ]
+    },
+    "spherical_with_diagonal_logdet": {
+      "different_from_kmeans": 0,
+      "different_from_fitted_gmm": 7,
+      "zero_based_rows_vs_kmeans": []
+    }
+  },
+  "probability_miss_all_disagreements": {
+    "1000": 0.8814946404180211,
+    "3000": 0.6801515293307303,
+    "10000": 0.2523209001055974,
+    "28000": 0.007809570521776472,
+    "56000": 0.0
+  }
+}
